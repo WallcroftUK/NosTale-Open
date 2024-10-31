@@ -8,7 +8,7 @@ NosTale-Open is an open-source implementation of the game **NosTale**, aiming to
 
 The repository consists of the following main components:
 
-- **database_server**: (Optional) Manages data persistence for user accounts, game states, and logs.
+- **database_server**: (To be implemented) Manages data persistence for user accounts, game states, and logs.
 - **login_server**: Handles user authentication and session management.
 - **master_server**: Coordinates between various game servers.
 - **world_server**: (To be implemented) Manages game world logic, player interactions, and in-game events.
@@ -30,9 +30,9 @@ members = [
 ## Requirements
 
 - Rust programming language (version 1.58 or later)
-- PostgreSQL (for database support, if using `database_server`)
-- MongoDB (for log storage, if using `database_server`)
-- Docker (optional, for containerizing the database)
+- PostgreSQL (for database support)
+- MongoDB (for log storage)
+- Docker ( for containerizing the database)
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ cd NosTale-Open
 ### Setting Up the Environment
 
 1. **Install Rust**: Follow the instructions at [rust-lang.org](https://www.rust-lang.org/tools/install).
-2. **Set Up Docker** (optional): If using Docker for your database services, ensure Docker is installed and running on your machine.
+2. **Set Up Docker**: If using Docker for your database services, ensure Docker is installed and running on your machine.
 
 ### Database Configuration
 
@@ -87,7 +87,7 @@ cargo run
 
 ```bash
 cd database_server
-cargo run  # Only if using the database server
+cargo run
 ```
 
 ### Note on World Server
@@ -96,11 +96,11 @@ The world server is not currently implemented. This section can be uncommented a
 
 ## Contributing
 
-Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on the code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read our [CONTRIBUTING](CONTRIBUTING) for details on the code of conduct and the process for submitting pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
