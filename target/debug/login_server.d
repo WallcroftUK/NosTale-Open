@@ -1,1 +1,0 @@
-C:\Users\Wallcroft\Documents\GitHub\NosTale-Open\target\debug\login_server.exe: C:\Users\Wallcroft\Documents\GitHub\NosTale-Open\login_server\src\handler\nt_crypto.rs C:\Users\Wallcroft\Documents\GitHub\NosTale-Open\login_server\src\handler.rs C:\Users\Wallcroft\Documents\GitHub\NosTale-Open\login_server\src\main.rs
