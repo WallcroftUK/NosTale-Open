@@ -1,5 +1,6 @@
 [workspace]
-members = [ "database_server",
+members = [ 
+    "database_server",
     "login_server",
     "master_server",
     # "world",
