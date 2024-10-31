@@ -1,0 +1,9 @@
+# server.toml
+host = "0.0.0.0"
+port = 4000
+
+[database]
+url = "mysql://user:password@localhost/dbname"
+
+[logging]
+level = "info"

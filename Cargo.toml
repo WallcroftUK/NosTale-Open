@@ -1,0 +1,16 @@
+[package]
+name = "nostale_open"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+aes = "0.7"            
+block-modes = "0.8"    
+base64 = "0.21"        
+regex = "1"
+config = "0.13"  
+log = "0.4"
+env_logger = "0.10"
+serde = { version = "1.0", features = ["derive"] }  
+toml = "0.5"  
